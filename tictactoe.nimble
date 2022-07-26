@@ -1,14 +1,14 @@
 # Package
 
-version       = "0.1.0"
-author        = "Anonymous"
-description   = "A new awesome nimble package"
+version       = "1.0.0"
+author        = "xcodz-dot"
+description   = "A TicTacToe CLI written in Nim"
 license       = "MIT"
 srcDir        = "src"
-bin           = @["TicTacToeNim"]
+bin           = @["tictactoe"]
 
 
 # Dependencies
 
-requires "nim >= 1.6.6"
+requires "nim >= 1.6.0"
 
